@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402A4C041955BD2A0009380D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A4C031955BD2A0009380D /* AppDelegate.swift */; };
+		402A4C061955BD2A0009380D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402A4C051955BD2A0009380D /* Images.xcassets */; };
+		402A4C121955BD2A0009380D /* CustumKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A4C111955BD2A0009380D /* CustumKeyboardTests.swift */; };
+		402A4C241955BD6C0009380D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A4C231955BD6C0009380D /* KeyboardViewController.swift */; };
+		402A4C271955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 402A4C1F1955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402A4C0C1955BD2A0009380D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402A4BF61955BD2A0009380D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402A4BFD1955BD2A0009380D;
+			remoteInfo = CustumKeyboard;
+		};
+		402A4C251955BD6C0009380D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402A4BF61955BD2A0009380D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402A4C1E1955BD6C0009380D;
+			remoteInfo = MyCustumKeyboard;
+		};
+		402A4C281955BD6C0009380D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402A4BF61955BD2A0009380D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402A4C1E1955BD6C0009380D;
+			remoteInfo = MyCustumKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		402A4C2D1955BD6C0009380D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				402A4C271955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		402A4BFE1955BD2A0009380D /* CustumKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustumKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402A4C021955BD2A0009380D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402A4C031955BD2A0009380D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		402A4C051955BD2A0009380D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		402A4C0B1955BD2A0009380D /* CustumKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustumKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402A4C101955BD2A0009380D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402A4C111955BD2A0009380D /* CustumKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumKeyboardTests.swift; sourceTree = "<group>"; };
+		402A4C1F1955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		402A4C221955BD6C0009380D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402A4C231955BD6C0009380D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402A4BFB1955BD2A0009380D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C081955BD2A0009380D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C1C1955BD6C0009380D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402A4BF51955BD2A0009380D = {
+			isa = PBXGroup;
+			children = (
+				402A4C001955BD2A0009380D /* CustumKeyboard */,
+				402A4C0E1955BD2A0009380D /* CustumKeyboardTests */,
+				402A4C201955BD6C0009380D /* MyCustumKeyboard */,
+				402A4BFF1955BD2A0009380D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402A4BFF1955BD2A0009380D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402A4BFE1955BD2A0009380D /* CustumKeyboard.app */,
+				402A4C0B1955BD2A0009380D /* CustumKeyboardTests.xctest */,
+				402A4C1F1955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402A4C001955BD2A0009380D /* CustumKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C031955BD2A0009380D /* AppDelegate.swift */,
+				402A4C051955BD2A0009380D /* Images.xcassets */,
+				402A4C011955BD2A0009380D /* Supporting Files */,
+			);
+			path = CustumKeyboard;
+			sourceTree = "<group>";
+		};
+		402A4C011955BD2A0009380D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C021955BD2A0009380D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		402A4C0E1955BD2A0009380D /* CustumKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C111955BD2A0009380D /* CustumKeyboardTests.swift */,
+				402A4C0F1955BD2A0009380D /* Supporting Files */,
+			);
+			path = CustumKeyboardTests;
+			sourceTree = "<group>";
+		};
+		402A4C0F1955BD2A0009380D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C101955BD2A0009380D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		402A4C201955BD6C0009380D /* MyCustumKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C231955BD6C0009380D /* KeyboardViewController.swift */,
+				402A4C211955BD6C0009380D /* Supporting Files */,
+			);
+			path = MyCustumKeyboard;
+			sourceTree = "<group>";
+		};
+		402A4C211955BD6C0009380D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				402A4C221955BD6C0009380D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402A4BFD1955BD2A0009380D /* CustumKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402A4C151955BD2A0009380D /* Build configuration list for PBXNativeTarget "CustumKeyboard" */;
+			buildPhases = (
+				402A4BFA1955BD2A0009380D /* Sources */,
+				402A4BFB1955BD2A0009380D /* Frameworks */,
+				402A4BFC1955BD2A0009380D /* Resources */,
+				402A4C2D1955BD6C0009380D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402A4C261955BD6C0009380D /* PBXTargetDependency */,
+				402A4C291955BD6C0009380D /* PBXTargetDependency */,
+			);
+			name = CustumKeyboard;
+			productName = CustumKeyboard;
+			productReference = 402A4BFE1955BD2A0009380D /* CustumKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		402A4C0A1955BD2A0009380D /* CustumKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402A4C181955BD2A0009380D /* Build configuration list for PBXNativeTarget "CustumKeyboardTests" */;
+			buildPhases = (
+				402A4C071955BD2A0009380D /* Sources */,
+				402A4C081955BD2A0009380D /* Frameworks */,
+				402A4C091955BD2A0009380D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402A4C0D1955BD2A0009380D /* PBXTargetDependency */,
+			);
+			name = CustumKeyboardTests;
+			productName = CustumKeyboardTests;
+			productReference = 402A4C0B1955BD2A0009380D /* CustumKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		402A4C1E1955BD6C0009380D /* MyCustumKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402A4C2A1955BD6C0009380D /* Build configuration list for PBXNativeTarget "MyCustumKeyboard" */;
+			buildPhases = (
+				402A4C1B1955BD6C0009380D /* Sources */,
+				402A4C1C1955BD6C0009380D /* Frameworks */,
+				402A4C1D1955BD6C0009380D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCustumKeyboard;
+			productName = MyCustumKeyboard;
+			productReference = 402A4C1F1955BD6C0009380D /* com.zohaibbrohi.CustumKeyboard.MyCustumKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402A4BF61955BD2A0009380D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Muhammad Zohaib Brohi";
+				TargetAttributes = {
+					402A4BFD1955BD2A0009380D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					402A4C0A1955BD2A0009380D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 402A4BFD1955BD2A0009380D;
+					};
+					402A4C1E1955BD6C0009380D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 402A4BF91955BD2A0009380D /* Build configuration list for PBXProject "CustumKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 402A4BF51955BD2A0009380D;
+			productRefGroup = 402A4BFF1955BD2A0009380D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402A4BFD1955BD2A0009380D /* CustumKeyboard */,
+				402A4C0A1955BD2A0009380D /* CustumKeyboardTests */,
+				402A4C1E1955BD6C0009380D /* MyCustumKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402A4BFC1955BD2A0009380D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A4C061955BD2A0009380D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C091955BD2A0009380D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C1D1955BD6C0009380D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402A4BFA1955BD2A0009380D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A4C041955BD2A0009380D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C071955BD2A0009380D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A4C121955BD2A0009380D /* CustumKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402A4C1B1955BD6C0009380D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A4C241955BD6C0009380D /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402A4C0D1955BD2A0009380D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402A4BFD1955BD2A0009380D /* CustumKeyboard */;
+			targetProxy = 402A4C0C1955BD2A0009380D /* PBXContainerItemProxy */;
+		};
+		402A4C261955BD6C0009380D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402A4C1E1955BD6C0009380D /* MyCustumKeyboard */;
+			targetProxy = 402A4C251955BD6C0009380D /* PBXContainerItemProxy */;
+		};
+		402A4C291955BD6C0009380D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402A4C1E1955BD6C0009380D /* MyCustumKeyboard */;
+			targetProxy = 402A4C281955BD6C0009380D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		402A4C131955BD2A0009380D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		402A4C141955BD2A0009380D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		402A4C161955BD2A0009380D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CustumKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		402A4C171955BD2A0009380D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CustumKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		402A4C191955BD2A0009380D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustumKeyboard.app/CustumKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustumKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		402A4C1A1955BD2A0009380D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustumKeyboard.app/CustumKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustumKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		402A4C2B1955BD6C0009380D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCustumKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.zohaibbrohi.CustumKeyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		402A4C2C1955BD6C0009380D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCustumKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.zohaibbrohi.CustumKeyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402A4BF91955BD2A0009380D /* Build configuration list for PBXProject "CustumKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A4C131955BD2A0009380D /* Debug */,
+				402A4C141955BD2A0009380D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402A4C151955BD2A0009380D /* Build configuration list for PBXNativeTarget "CustumKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A4C161955BD2A0009380D /* Debug */,
+				402A4C171955BD2A0009380D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		402A4C181955BD2A0009380D /* Build configuration list for PBXNativeTarget "CustumKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A4C191955BD2A0009380D /* Debug */,
+				402A4C1A1955BD2A0009380D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		402A4C2A1955BD6C0009380D /* Build configuration list for PBXNativeTarget "MyCustumKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A4C2B1955BD6C0009380D /* Debug */,
+				402A4C2C1955BD6C0009380D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 402A4BF61955BD2A0009380D /* Project object */;
+}

@@ -28,3 +28,5 @@ Before Getting into implementation of Custom Keyboard let discuss about importan
 6.	Tap on hold global key and select your keyboard
 
 
+![Alt text](http://i.imgur.com/jviOI4s.png "Custum Keyboard Image")
+
